@@ -184,7 +184,7 @@ If you want even more flexibility, you can create your own Dashboard Segment.
 
 This is a general procedure on how to do it:
 
-1. Extend the `Monitoring` ckass
+1. Extend the `Monitoring` class
 1. Override the `widgets()` method (and/or similar ones)
 1. Leverage the metric factor and alarm factory, provided by the base class (you can create additional factories, if you will)
 1. Add all alarms to `.addAlarm()` so they are visible to the user and being placed on the alarm summary dashboard
